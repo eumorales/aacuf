@@ -1,2 +1,1 @@
-# aacuf
-🐧 Associação Atlética de Computação da Universidade Franciscana
+# Em produção...
