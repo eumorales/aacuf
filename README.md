@@ -4,8 +4,8 @@
 
 ## 🤳 Preview
 <p>
-  <img alt="Web" src="https://github.com/eumorales/eumorales/blob/main/preview/aacuf-web.png" width="710"/>
-  <img alt="Mobile" src="https://github.com/eumorales/eumorales/blob/main/preview/aacuf-mobile.png" width="200"/>
+  <img alt="Web" src="https://github.com/eumorales/eumorales/blob/main/preview/aacuf-web.png""/>
+  <img alt="Mobile" src="https://github.com/eumorales/eumorales/blob/main/preview/aacuf-mobile.png"/>
 </p>
 
 ###### https://aacuf.com
