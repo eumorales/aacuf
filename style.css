@@ -68,7 +68,7 @@ ul.links li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #ffa600, #f99d00, #e2af17);
+  background-image: linear-gradient(to right, #000000, #4a4a4a, #4b4b4b);
   margin-top: 1.5rem;
   gap: 1rem;
   padding: 1rem;
@@ -78,7 +78,18 @@ ul.links li:not(:last-child) {
 }
 
 .link-card:hover {
+  transform: translateY(-3px);
   border: 2px solid white;
+  animation: float 0.9s ease infinite alternate; 
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px); 
+  }
 }
 
 .links .link-icon {
