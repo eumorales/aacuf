@@ -1,0 +1,35 @@
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de compilação
+*.o
+*.out
+
+# Arquivos de dependências
+*.log
+*.lock
+npm-debug.log*
+
+# Diretórios de build
+build/
+dist/
+node_modules/
+
+# Arquivos de configuração
+.env
+config.js
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.backup

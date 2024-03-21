@@ -1,4 +1,3 @@
-
 const actionLink = document.querySelectorAll(".link-card .link-action");
 
 document.querySelectorAll(".sosmed i").forEach((sosmed) => {
