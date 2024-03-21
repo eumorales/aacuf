@@ -22,11 +22,12 @@ body {
   gap: 1rem;
 }
 .mascote {
-  margin-top: 2.5rem;
-  width: 10rem;
-  border-radius: 50%;
+  width: 14rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   object-fit: cover;
   object-position: top;
+  
 }
 
 a {
@@ -47,6 +48,18 @@ a {
   margin-right: 1rem;
 }
 
+.footer {
+
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+.footer i {
+  font-size: 2rem;
+  color: white;
+}
+
 ul {
   width: 80%;
   max-width: 40rem;
@@ -57,18 +70,18 @@ ul li {
 }
 
 ul.links li:not(:last-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .links {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .link-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #000000, #4a4a4a, #4b4b4b);
+  background-image: black;
   margin-top: 1.5rem;
   gap: 1rem;
   padding: 1rem;
