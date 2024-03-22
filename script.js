@@ -1,6 +1,6 @@
 const actionLink = document.querySelectorAll(".link-card .link-action");
 
-document.querySelectorAll(".sosmed i").forEach((sosmed) => {
+document.querySelectorAll(".icones i").forEach((icones) => {
   sosmed.addEventListener("mouseenter", () => {
     sosmed.classList.remove("ph");
     sosmed.classList.add("ph-fill");
