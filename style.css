@@ -90,11 +90,32 @@ ul.links li:not(:last-child) {
   border: 2px solid #3C4043;
 }
 
+
 .link-card:hover {
   transform: translateY(-3px);
   border: 2px solid white;
   animation: float 0.9s ease infinite alternate; 
 }
+
+.card-highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: black;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 8px 10px 0 gold;
+  border: 2px solid #3C4043;
+}
+
+.card-highlight:hover {
+  transform: translateY(-3px);
+  border: 2px solid white;
+  animation: float 0.9s ease infinite alternate; 
+}
+
 
 @keyframes float {
   from {
