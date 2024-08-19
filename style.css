@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -21,13 +20,13 @@ body {
   padding-bottom: 2rem;
   gap: 1rem;
 }
+
 .mascote {
-  width: 14rem;
+  width: 16rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   object-fit: cover;
   object-position: top;
-  
 }
 
 a {
@@ -49,10 +48,8 @@ a {
 }
 
 .footer {
-
   margin-top: 3rem;
   margin-bottom: 0.5rem;
-  
 }
 
 .footer i {
@@ -86,43 +83,25 @@ ul.links li:not(:last-child) {
   gap: 1rem;
   padding: 1rem;
   border-radius: 20px;
-  box-shadow: 8px 10px 0 white;
+  box-shadow: 8px 10px 0 #9f8762; 
   border: 2px solid #3C4043;
 }
+
+/* #8841ff*/
 
 
 .link-card:hover {
   transform: translateY(-3px);
   border: 2px solid white;
-  animation: float 0.9s ease infinite alternate; 
+  animation: float 0.9s ease infinite alternate;
 }
-
-.card-highlight {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-image: black;
-  margin-top: 1.5rem;
-  gap: 1rem;
-  padding: 1rem;
-  border-radius: 20px;
-  box-shadow: 8px 10px 0 gold;
-  border: 2px solid #3C4043;
-}
-
-.card-highlight:hover {
-  transform: translateY(-3px);
-  border: 2px solid white;
-  animation: float 0.9s ease infinite alternate; 
-}
-
 
 @keyframes float {
   from {
-    transform: translateY(0);
+      transform: translateY(0);
   }
   to {
-    transform: translateY(-5px); 
+      transform: translateY(-5px);
   }
 }
 
