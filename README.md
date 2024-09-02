@@ -1,6 +1,6 @@
 
 # 🐧 AACUF
-<img alt="MIT" src="https://img.shields.io/badge/version-wip-white" />
+<img alt="MIT" src="https://img.shields.io/badge/version-v1.0-white" />
 
 ## 🤳 Preview
 <p>
